@@ -1,0 +1,23 @@
+{
+  "name": "demonodeapi",
+  "version": "0.0.0",
+  "description": "A simple node API using express.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./bin/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnrj/DemoNodeAPI.git"
+  },
+  "author": "Johann Lemmermann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnrj/DemoNodeAPI/issues"
+  },
+  "homepage": "https://github.com/johnrj/DemoNodeAPI#readme",
+  "dependencies": {
+    "express": ">=4.17.1",
+    "nodemon": ">=1.19.1"
+  }
+}
